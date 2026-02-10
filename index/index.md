@@ -51,7 +51,7 @@ config:
             voice --> nisqa([NISQA])
         end
             title --> cli([bqconnect CLI])
-            title --> desktop([bqconnect Desktop (WIP)])
+            title --> desktop([bqconnect Desktop])
         click finger "http://docs.openbq.io/modalities/fingerprint.html" _blank
         click face "http://docs.openbq.io/modalities/face.html" _blank
         click iris "http://docs.openbq.io/modalities/iris.html" _blank

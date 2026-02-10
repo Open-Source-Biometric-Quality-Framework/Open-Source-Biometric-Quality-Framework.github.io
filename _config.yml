@@ -13,7 +13,7 @@ aux_links:
     - "//github.com/Open-Source-Biometric-Quality-Framework"
 aux_links_new_tab: true
 mermaid:
-  version: "11.4.1"
+  version: "11.12.2"
   theme: "neutral"
 
 back_to_top: true
