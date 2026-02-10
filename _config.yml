@@ -1,0 +1,36 @@
+title: "Open Source Biometric Quality Framework"
+title_separator: "|"
+subtitle: "OpenBQ"
+description: "OpenBQ - A Open Source Biometric Quality Assessment Framework"
+url: https://docs.openbq.io
+repository: https://github.com/orgs/Open-Source-Biometric-Quality-Framework/
+logo: "/assets/images/logo.png"
+favicon_ico: "/assets/images/favicon.svg"
+color_scheme: openbq
+
+aux_links:
+  "OpenBQ on Github":
+    - "//github.com/Open-Source-Biometric-Quality-Framework"
+aux_links_new_tab: true
+mermaid:
+  version: "11.4.1"
+  theme: "neutral"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+heading_anchors: true
+enable_copy_code_button: true
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+theme: just-the-docs
+
+last_modified_date: true
+
+# Google Analytics Tracking
+ga_tracking: G-W6PDLQ5L5Q
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
