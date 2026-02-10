@@ -82,32 +82,6 @@ graph LR
 + It takes a folder in your file system as input and produces the raw metrics in CSV along with a EDA report.
 
 + It is distributed as Docker container as well as a Python entry point application.
-<!-- 
-***
-
-``` mermaid
----
-title: bqconnect Desktop
-config:
-  theme: neutral
-  layout: elk
----
-graph LR
-    upload(Upload) --> gui{Web}
-    gui{Web GUI} --> api(bqconnect Service)
-    api(Backend) --> db[(Database)]
-    db[(Database)] --> report(EDA Report)
-    db[(Database)] --> output(Raw CSV)
-    db[(Database)] --> outlier(Outliers Detected)
-```
-
-+ bqconnect Desktop is a GUI application for openbq.
-
-+ Can, currently, only be deployed as a desktop application.
-
-+ Vertical scaling only.
-
-+ It is distributed as Docker container. -->
 
 
 ## System Requirements

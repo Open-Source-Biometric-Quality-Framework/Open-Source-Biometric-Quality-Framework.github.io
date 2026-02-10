@@ -50,9 +50,8 @@ config:
             face --> biqt-face([BIQT])
             voice --> nisqa([NISQA])
         end
-            title --> cli(bqconnect CLI)
-            title --> service(bqconnect Service)
-            title --> gui(bqconnect Desktop)
+            title --> cli([bqconnect CLI])
+            title --> desktop([bqconnect Desktop (WIP)])
         click finger "http://docs.openbq.io/modalities/fingerprint.html" _blank
         click face "http://docs.openbq.io/modalities/face.html" _blank
         click iris "http://docs.openbq.io/modalities/iris.html" _blank
