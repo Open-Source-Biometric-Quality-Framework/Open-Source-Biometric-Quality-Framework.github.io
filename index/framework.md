@@ -59,7 +59,7 @@ graph LR
 
 ### Interfaces
 
-bqcore service is exposed via different interfaces (CLI and GUI), which handle data loading, data management and task queueing.
+bqcore service is exposed via command line interfaces.
 
 ***
 
@@ -77,12 +77,12 @@ graph LR
     cli{Command Line} --> log(Log)
 ```
 
-+ The bqconnect CLI provides terminal commands to interact with bqcore.
++ The bqconnect CLI provides treminal commands to interact with bqcore service.
 
 + It takes a folder in your file system as input and produces the raw metrics in CSV along with a EDA report.
 
 + It is distributed as Docker container as well as a Python entry point application.
-
+<!-- 
 ***
 
 ``` mermaid
@@ -107,7 +107,7 @@ graph LR
 
 + Vertical scaling only.
 
-+ It is distributed as Docker container.
++ It is distributed as Docker container. -->
 
 
 ## System Requirements
@@ -150,5 +150,3 @@ Test Platform 2: 14 cores, arm64, macOS 15.6.1, 32 GB of RAM.
 
 > As new quality metrics added to the engine, the benchmark number above might not reflect the current status of the project.
 
-
-> Test done in iris mode.
