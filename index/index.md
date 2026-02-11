@@ -133,7 +133,7 @@ config:
 
 ## Roadmap
 
-Coming doon 🚀
+Coming soon 🚀
 
 ---
 
