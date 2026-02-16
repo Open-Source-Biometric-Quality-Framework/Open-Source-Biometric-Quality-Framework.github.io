@@ -10,7 +10,7 @@ The openbq bqconnect suite offers tools for assessing the quality of biometric d
 
 ## CLI Tool
 
-For users preferring a scriptable interface, our Command Line Interface (CLI) tool offers easy to use entry point. It is ideal for integrating biometric analysis into automated workflows or for users who prefer terminal-based operations. 
+For users preferring a scriptable interface, our Command Line Interface (CLI) tool offers an easy to use entry point. It is ideal for integrating biometric analysis into automated workflows or for users who prefer terminal-based operations. 
 
 ### Highlights
 

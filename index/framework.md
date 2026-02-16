@@ -77,7 +77,7 @@ graph LR
     cli{Command Line} --> log(Log)
 ```
 
-+ The bqconnect CLI provides treminal commands to interact with bqcore service.
++ The bqconnect CLI provides terminal commands to interact with bqcore service.
 
 + It takes a folder in your file system as input and produces the raw metrics in CSV along with a EDA report.
 

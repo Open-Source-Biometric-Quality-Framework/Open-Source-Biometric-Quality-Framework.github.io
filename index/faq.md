@@ -59,9 +59,9 @@ e.g. input folder is `data/iris folder/`
 ./run.sh --input "data/iris\ folder/" --mode iris
 ``` -->
 
-## bqconnect CLI see error related to ray worker died.
+<!-- ## bqconnect CLI see error related to ray worker died.
 
-If you encounter error related to worker died, that might indicates the machine don't have sufficient RAM to work with CPU cores. Usually that happens on Windows where the it allocates [50% of available RAM](https://docs.docker.com/desktop/settings-and-maintenance/settings/#:~:text=By%20default%2C%20Docker%20Desktop%20is,decrease%20it%2C%20lower%20the%20number.) to Docker engine. You may limit the CPU or allocate more memory to it.
+If you encounter error related to worker died, that might indicates the machine don't have sufficient RAM to work with CPU cores. Usually that happens on Windows where the it allocates [50% of available RAM](https://docs.docker.com/desktop/settings-and-maintenance/settings/#:~:text=By%20default%2C%20Docker%20Desktop%20is,decrease%20it%2C%20lower%20the%20number.) to Docker engine. You may limit the CPU or allocate more memory to it. -->
 
 <!-- ## OFIQ engine very slow to get result.
 
