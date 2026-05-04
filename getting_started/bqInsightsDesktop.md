@@ -1,11 +1,11 @@
 ---
 layout: default
-title: OpenBQ Insights Desktop
+title: bqInsights Desktop
 parent: Getting Started
 nav_order: 2
 ---
 
-# OpenBQ Insights Desktop
+# bqInsights Desktop
 
 The program is currently undergoing testing and will be available soon. 
 
@@ -23,11 +23,11 @@ The program is currently undergoing testing and will be available soon.
 ---
 
 {: .highlight }
-> 🖥️ **OpenBQ Insights Desktop** is a local desktop application for biometric quality assessment — no data is ever sent to the internet.
+> 🖥️ **bqInsights Desktop** is a local desktop application for biometric quality assessment — no data is ever sent to the internet.
 
-## What is OpenBQ Insights Desktop?
+## What is bqInsights Desktop?
 
-OpenBQ Insights Desktop allows you to analyse a collection of biometric files — such as face images, fingerprints, iris scans, or voice recordings — and understand their quality. It produces visual charts and metrics that help you identify low-quality samples, spot systematic capture problems, and assess the overall health of your dataset.
+bqInsights Desktop allows you to analyse a collection of biometric files — such as face images, fingerprints, iris scans, or voice recordings — and understand their quality. It produces visual charts and metrics that help you identify low-quality samples, spot systematic capture problems, and assess the overall health of your dataset.
 
 ---
 
@@ -47,7 +47,7 @@ Docker is required for OpenBQ Desktop to run its analysis pipeline.
 5. Wait for the status indicator to turn green — this means Docker is running
 
 {: .note }
-> You must have Docker Desktop **open and running** before launching OpenBQ Insights Desktop. If you see a message saying "Docker is not running" in the app, open Docker Desktop and wait for it to start, then relaunch OpenBQ Insights Desktop.
+> You must have Docker Desktop **open and running** before launching bqInsights Desktop. If you see a message saying "Docker is not running" in the app, open Docker Desktop and wait for it to start, then relaunch bqInsights Desktop.
 
 **Linux:**
 Follow the [official Docker Engine installation guide](https://docs.docker.com/engine/install/) for your distribution.
@@ -75,7 +75,7 @@ This downloads a local AI model (this may take a few minutes depending on your i
 
 ## Installation
 
-Download the latest release of OpenBQ Insights Desktop from the [releases page](https://github.com/Open-Source-Biometric-Quality-Framework/openbq-desktop-releases/releases).
+Download the latest release of bqInsights Desktop from the [releases page](https://github.com/Open-Source-Biometric-Quality-Framework/openbq-desktop-releases/releases).
 
 | Platform | File to download |
 |----------|-----------------|
@@ -117,11 +117,11 @@ A progress indicator will appear while the analysis runs. Depending on the numbe
 Click **Cancel** at any time to stop.
 
 {: .note }
-> The first time OpenBQ Insights Desktop opens, it may take a few minutes to initialise. This is normal — it is downloading and setting up the analysis (bqCore) container. This only happens once.
+> The first time bqInsights Desktop opens, it may take a few minutes to initialise. This is normal — it is downloading and setting up the analysis (bqCore) container. This only happens once.
 
 ### Configuring the clusters
 
-In order for OpenBQ Insights Desktop to cluster your results you must choose your required Cluster Sensitivity. Once selected click **Apply**, your results will be clustered based on the selected setting.
+In order for bqInsights Desktop to cluster your results you must choose your required Cluster Sensitivity. Once selected click **Apply**, your results will be clustered based on the selected setting.
 
 ### Understanding the Results
 
@@ -159,11 +159,11 @@ Select the instruction set you want active before running an analysis.
 
 ### AI Summary
 
-OpenBQ Insights Desktop can provide a summary report of the biometric quality results, click the **AI Summary** button and wait for a omprehensive summary report to be generated.
+bqInsights Desktop can provide a summary report of the biometric quality results, click the **AI Summary** button and wait for a omprehensive summary report to be generated.
 
 ### Cluster Labels
 
-OpenBQ Insights Desktop can provide labl all of your clusters, click the **AI Label Clusters** button and wait for a comprehensive summary report to be generated.
+bqInsights Desktop can provide labl all of your clusters, click the **AI Label Clusters** button and wait for a comprehensive summary report to be generated.
 
 ---
 
@@ -187,7 +187,7 @@ No. All processing runs locally on your computer. Biometric data is never upload
 Face images, fingerprints, iris scans, and voice recordings. Available metrics depend on which OpenBQ modules are enabled in your version.
 
 **Docker is not running — what do I do?**
-Open Docker Desktop from your Start menu or Applications folder and wait until the status indicator turns green, then relaunch OpenBQ Insights Desktop.
+Open Docker Desktop from your Start menu or Applications folder and wait until the status indicator turns green, then relaunch bqInsights Desktop.
 
 **Results look the same even after I updated my files.**
 Go to **Settings** and click **Clear Analysis Cache**, then run the analysis again.
