@@ -75,7 +75,7 @@ This downloads a local AI model (this may take a few minutes depending on your i
 
 ## Installation
 
-Download the latest release of bqInsights Desktop from the [releases page](https://github.com/Open-Source-Biometric-Quality-Framework/openbq-desktop-releases/releases).
+Download the latest release of bqInsights Desktop from the [releases page](https://github.com/Open-Source-Biometric-Quality-Framework/bqInsights/releases).
 
 | Platform | File to download |
 |----------|-----------------|
