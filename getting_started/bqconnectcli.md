@@ -91,7 +91,7 @@ openbq --uninstall
 <a name="output">
 ## Output
 
-open**bq** will produce the quality metrics in a CSV file, a EDA report when enabled.
+Open**BQ** will produce the quality metrics in a CSV file, a EDA report when enabled.
 
 ## Further details about the command and advanced option flags
 {: .no_toc }

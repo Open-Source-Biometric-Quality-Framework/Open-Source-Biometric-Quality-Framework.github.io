@@ -49,7 +49,7 @@ Optional processing engines:
 ***
 
 <a name="obqe">
-### OBQE (Open Biometric Quality Engine by open**bq**)
+### OBQE (Open Biometric Quality Engine by Open**BQ**)
 
 | Column           | Description |
 | ----------------      | ----------- |

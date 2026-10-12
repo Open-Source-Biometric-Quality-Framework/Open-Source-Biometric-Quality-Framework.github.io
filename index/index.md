@@ -5,16 +5,12 @@ nav_order: 1
 permalink: /
 ---
 
-_Latest News_
-
-> 🚀 First version of "open**bq**"!
-
 ---
 
 _Releases_
 
 {: .highlight }
->  open**bq** [v0.1.0](https://pypi.org/project/openbq/) released!🎉
+>  Open**BQ** [v0.1.3](https://pypi.org/project/openbq/) released!🎉
 
 
 ---
@@ -25,7 +21,7 @@ by [Biometix](https://www.biometix.com/)
 
 ## Overview
 
-[open**bq**](https://github.com/Open-Source-Biometric-Quality-Framework) (Open Source Biometric Quality Framework) is an open source biometric quality assessment tool for generating and analyzing biometric samples’ quality against international standards as well as customized metrics. openbq functions by taking an input directory of biometric data and producing raw quality information and an analysis report.
+[Open**BQ**](https://github.com/Open-Source-Biometric-Quality-Framework) (Open Source Biometric Quality Framework) is an open source biometric quality assessment tool for generating and analyzing biometric samples’ quality against international standards as well as customized metrics. openbq functions by taking an input directory of biometric data and producing raw quality information and an analysis report.
 
 The quality of biometric samples is a key aspect of the performance and efficacy of a biometric system. Whilst there are a variety of tools suitable for each modality, this project is aimed to provide an open source framework to support all common modalities and allow for expansion as new methods are developed. 
 
@@ -119,7 +115,7 @@ config:
     [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/openbq)](https://pypi.python.org/pypi/openbq)
     [![PyPI - License](https://img.shields.io/pypi/l/openbq)](https://pypi.python.org/pypi/openbq)
 
-    open**bq** in the terminal. A CLI tool for easy biometric quality assessment.
+    Open**BQ** in the terminal. A CLI tool for easy biometric quality assessment.
 
 <!-- + __[Desktop](https://github.com/Open-Source-Biometric-Quality-Framework/bqConnect-Desktop)__
 

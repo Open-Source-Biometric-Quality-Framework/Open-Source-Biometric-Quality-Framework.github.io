@@ -141,7 +141,7 @@ openbq --input "data/iris\ folder/" --mode iris
 <a name="alt-engine">
 ### Select Alternative Face Analysis [Engines](https://docs.openbq.io/modalities/face.html#alt-engine-output)
 
-Currently, open**bq** support 3 analysis engines for face modality:
+Currently, Open**BQ** support 3 analysis engines for face modality:
 
 + OBQE (native Biometix)
 + OFIQ (by BSI)
@@ -167,10 +167,10 @@ You may combine more than one engine using code below:
 | [OFIQ](https://docs.openbq.io/modalities/face.html#ofiq) | 2 (010) |
 | [BIQT](https://docs.openbq.io/modalities/face.html#biqt) | 1 (001) |
 
-openbq and BIQT:
+Enable OBQE and OFIQ:
 
 ``` sh
-openbq --mode face --input data/input/ --engine fusion --fusion 5
+openbq --mode face --input data/input/ --engine fusion --fusion 6
 ```
 
 All 3 engines:
@@ -294,13 +294,13 @@ openbq --uninstall
 Configure shared memory allocated to docker container (will allocate half of the physical memory avaiable by default):
 
 ```sh
-openbq --shm 8192MB [openbq TASK OPTIONS]
+openbq --shm 8192MB [OpenBQ TASK OPTIONS]
 ```
 
 Specify alternative backend container:
 
 ```sh
-openbq --tag ghcr.io/open-source-biometric-quality-framework/bqcore-service:v1.0.0 [openbq TASK OPTIONS]
+openbq --tag ghcr.io/open-source-biometric-quality-framework/bqcore-service:v1.0.0 [OpenBQ TASK OPTIONS]
 ```
 
 ## Output Example
