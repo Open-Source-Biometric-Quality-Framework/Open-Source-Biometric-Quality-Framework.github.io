@@ -23,6 +23,10 @@ nav_order: 2
 
 ---
 
+## BQInsights Workspace
+
+![Screenshot](../assets/images/screenshot_bqinsights_overall.png)
+
 > This project is in beta for early access and is not recommended for production environments.
 
 ## Prerequisites
@@ -142,4 +146,4 @@ In terms of AI model selection, have a look at spec of your computer, select a A
 | AWS Trainium3 | 416 |
 | Google Ironwood | 625 |
 
-> Note: Performance numbers based on Gemma 4 E4B, Q4_K_M, decode speed rough estimation, prefill not considered which relies more on the pure computing power.
+> Note: Performance numbers based on Gemma 4 E4B, Q4_K_M, decode speed rough estimation, prefill not considered.
