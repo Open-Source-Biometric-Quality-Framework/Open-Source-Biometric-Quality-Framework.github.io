@@ -18,7 +18,6 @@ permalink: /releasenotes/
 
 ## [BQInsights Desktop](https://github.com/Open-Source-Biometric-Quality-Framework/bqInsights/releases)
 
-[![Build](https://github.com/Open-Source-Biometric-Quality-Framework/bqInsights/actions/workflows/build.yml/badge.svg)](https://github.com/Open-Source-Biometric-Quality-Framework/bqInsights/actions/workflows/build.yml)
 [![Release](https://github.com/Open-Source-Biometric-Quality-Framework/bqInsights/actions/workflows/release.yml/badge.svg)](https://github.com/Open-Source-Biometric-Quality-Framework/bqInsights/actions/workflows/release.yml)
 
 <a name="v0.1.11"></a>

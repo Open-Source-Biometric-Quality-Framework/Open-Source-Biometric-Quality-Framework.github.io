@@ -84,3 +84,62 @@ git pull
 ## Uninstall
 
 - Simply remove the project directory.
+
+---
+
+## AI Models
+
+In terms of AI model selection, have a look at spec of your computer, select a AI model that fits memory of your computer.
+
+> Leave at least 5–10% memory headroom for your operating system to ensure stability.
+
+### Consumer Grade Device
+
+| GPU | VRAM |
+| --- | --- |
+| RTX 5060 | 8GB |
+| RTX 5080 | 16GB |
+| RTX 5090 | 32GB |
+
+> For Mac, Nvidia Spark, AMD Ryzen AI Halo, or other machine with integrated GPU, system memory is shared across CPU and GPU, so the vram numbers above will be roughly equivalent to your total memory.
+
+### Professional Grade Machine
+
+| GPU | VRAM |
+| --- | --- |
+| RTX PRO 5000 | 48 or 72 GB |
+| RTX PRO 6000 | 96GB |
+| DGX Spark | 128GB |
+| H200 | 141GB |
+| B300 | 288GB |
+
+
+### Models
+
+| Model | Size |
+| --- | --- |
+| gemma4:12b | 7.6GB |
+| qwen3.8:27b | 18GB |
+| gemma4:31b | 20GB |
+| Qwen3.8-Flash-Next-GGUF, 4-bit | 111GB |
+| GLM-5.3-Flash-GGUF, 4-bit | 200GB |
+| DeepSeek-V4.1-Flash-1017-GGUF, 4-bit | 501GB |
+| Muse-Spark-Open-816B-A42B-GGUF, 4-bit | 506GB | 
+
+### Performance Esimation
+
+| Device | Speed (tokens/s) |
+| --- | --- |
+| RTX 5060 | 62 |
+| RTX 5090 | 152 |
+| RTX PRO 5000 | 120 |
+| RTX PRO 6000 | 152 |
+| DGX Spark | 40 |
+| M4 Max | 61 |
+| M5 Max | 69 |
+| H200 | 407 |
+| B300 | 679 |
+| AWS Trainium3 | 416 |
+| Google Ironwood | 625 |
+
+> Note: Performance numbers based on Gemma 4 E4B, Q4_K_M, decode speed rough estimation, prefill not considered which relies more on the pure computing power.
