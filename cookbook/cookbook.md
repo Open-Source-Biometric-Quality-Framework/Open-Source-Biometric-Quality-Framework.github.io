@@ -8,9 +8,9 @@ has_toc: false
 
 The openbq bqconnect suite offers tools for assessing the quality of biometric data. It supports biometric modalities including fingerprints, face, iris, and voice. Developed by our experienced team, our tools are designed for flexibility, ease of use, and integration into existing projects.
 
-## CLI Tool
+## [CLI Tool](https://docs.openbq.io/cookbook/bqconnectcli.html)
 
-For users preferring a scriptable interface, our Command Line Interface (CLI) tool offers an easy to use entry point. It is ideal for integrating biometric analysis into automated workflows or for users who prefer terminal-based operations. 
+For users preferring a scriptable interface, our Command Line Interface (CLI) tool offers an easy to use entry point. It is ideal for integrating biometric analysis into automated workflows or for users who prefer terminal-based operations.
 
 ### Highlights
 
@@ -18,4 +18,7 @@ For users preferring a scriptable interface, our Command Line Interface (CLI) to
 * Multi-core processing enabled
 * Simple integration into existing scripts or workflows
 
+## [BQInsights](https://docs.openbq.io/cookbook/bqinsights.html)
+
+BQInsights desktop app provides a user-friendly graphical interface for the CLI. It also empowers you with AI-powered analysis.
 

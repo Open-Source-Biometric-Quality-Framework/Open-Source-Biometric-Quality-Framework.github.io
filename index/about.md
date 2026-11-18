@@ -16,7 +16,6 @@ permalink: /about/
 - MOSIP Integration​
 - Training resources​
 - Biometric Quality Innovation Hub (demonstration centre)​
-- openbq Core software upgrades for better scalability​
 
 ## Contact Us
 

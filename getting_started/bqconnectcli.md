@@ -1,11 +1,11 @@
 ---
 layout: default
-title: bqconnect CLI
+title: BQConnect CLI
 parent: Getting Started
 nav_order: 1
 ---
 
-# bqconnect CLI
+# BQConnect CLI
 
 [![GitHub Tag](https://img.shields.io/github/v/tag/biometix/bqat-cli)](https://github.com/Biometix/bqat-cli/releases)
 [![PyPI - Version](https://img.shields.io/pypi/v/bqat)](https://pypi.python.org/pypi/bqat)
@@ -24,10 +24,10 @@ nav_order: 1
 ---
 
 {: .highlight }
-> 🚀 Introducing the new [bqconnect CLI](https://pypi.org/project/openbq/)!
+> 🚀 Introducing the new [BQConnect CLI](https://pypi.org/project/openbq/)!
 
 {: .highlight }
-> 🌟 bqconnect CLI now supports ARM-based CPUs! Whether you're on an Apple M‑series or a Qualcomm Snapdragon X‑series processor, you can leverage its performance for biometric data analysis.
+> 🌟 BQConnect CLI now supports ARM-based CPUs! Whether you're on an Apple M‑series or a Qualcomm Snapdragon X‑series processor, you can leverage its performance for biometric data analysis.
 
 
 ## Setup
@@ -35,10 +35,11 @@ nav_order: 1
 Prerequisites:
 - [Docker](https://www.docker.com/)
 - Python (3.10+)
-- AMD64 or ARM64 CPU
 
-### Install bqconnect CLI
+### Install BQConnect CLI
 {: .no_toc }
+
+> You may want to create a virtual environment using [venv](https://docs.python.org/3/library/venv.html), [package manager](https://docs.astral.sh/uv/) of your choice, or [pipx](pipx.pypa.io)
 
 ```sh
 pip install openbq

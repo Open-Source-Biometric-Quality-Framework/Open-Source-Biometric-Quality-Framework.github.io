@@ -7,10 +7,13 @@ permalink: /
 
 ---
 
-_Releases_
+_Latest News_
 
 {: .highlight }
->  Open**BQ** [v0.1.3](https://pypi.org/project/openbq/) released!🎉
+>  Open**BQ** CLI [v0.1.3](https://pypi.org/project/openbq/) released!🎉
+
+{: .highlight }
+>  BQInsights Desktop [v0.1.11](https://github.com/Open-Source-Biometric-Quality-Framework/bqInsights/releases) released!🎉
 
 
 ---
@@ -116,6 +119,17 @@ config:
     [![PyPI - License](https://img.shields.io/pypi/l/openbq)](https://pypi.python.org/pypi/openbq)
 
     Open**BQ** in the terminal. A CLI tool for easy biometric quality assessment.
+
++ __[BQInsights](https://github.com/Open-Source-Biometric-Quality-Framework/bqinsights)__
+
+    <img alt="GitHub Release" src="https://img.shields.io/github/v/release/Open-Source-Biometric-Quality-Framework/bqInsights">
+    <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/Open-Source-Biometric-Quality-Framework/bqInsights">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/Open-Source-Biometric-Quality-Framework/bqInsights">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Open-Source-Biometric-Quality-Framework/bqInsights">
+    <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/Open-Source-Biometric-Quality-Framework/bqInsights/total">
+    <img alt="GitHub" src="https://img.shields.io/github/license/Open-Source-Biometric-Quality-Framework/bqInsights">
+
+    An AI-powered desktop application to work with the OpenBQ CLI outputs.
 
 <!-- + __[Desktop](https://github.com/Open-Source-Biometric-Quality-Framework/bqConnect-Desktop)__
 
